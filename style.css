@@ -364,7 +364,9 @@ header {
     color: var(--silver);
     padding-top: 24px;
 }
-.plan-prices-container {display: flex; flex-direction: row; position: relative; overflow-x: scroll; overscroll-behavior-x:contain; scroll-snap-type: proximity; }
+.plan-prices-container {display: flex; flex-direction: row; position: relative; overflow-x: scroll; overscroll-behavior-x:contain; scroll-snap-type: proximity; -ms-overflow-style: none; scrollbar-width: none;}
+.plan-prices-container::-webkit-scrollbar {
+    display: none;}
 .plan-prices { min-width: 190px; max-width: 400px; height: auto; display: flex; position: relative; flex-direction: column; align-items: center; margin: 50px 8px; background-color: var(--white); border-radius: 8px; scroll-snap-align: center;}
 .plan-prices:first-child {scroll-snap-align: start;}
 .plan-prices:last-child {scroll-snap-align: end;}
