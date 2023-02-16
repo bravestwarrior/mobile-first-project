@@ -1,0 +1,10 @@
+.main-tables-container {flex-direction: row; justify-content: space-evenly;}
+        .main-currency-table  {margin: 0; margin-left: 10%;  max-width: 350px;}
+        .main-commission-table {margin: 0; margin-right: 10%;  max-width: 350px;}
+        .currency-table--container {max-width: 400px;}
+        .main-info-container {display: flex; flex-direction: column; align-items: center; height: auto; padding-bottom: 50px;}
+        .info-box--container {flex-direction: row; flex-wrap: wrap; align-content: space-evenly; justify-content: space-evenly; width: 100%; max-width: 1200px; height: 500px;}
+        .info-box {width: 0; margin: 0; max-width: 500px; display: flex; flex-basis: 450px;  flex-direction: column;  }
+        .info-box:first-child {margin: 0; }
+        .plan-prices-container {justify-content: center;}
+        .plan-prices-container::-webkit-scrollbar {display: none;}
