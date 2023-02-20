@@ -100,7 +100,7 @@ header {
         width: 195px; 
         height: 195px; 
         margin-top: 60px; 
-        background-image: url('./assets/images/Bitcoin.svg'); 
+        background-image: url('../assets/images/Bitcoin.svg'); 
         background-size: contain;}
     .main-exchange-container--title h2 {
         font-weight: 700;
@@ -149,7 +149,7 @@ header {
     margin-left: 10px;
     width: 12px; 
     height: 12px; 
-    background-image: url('./assets/icons/trending-up\ 1.svg'); 
+    background-image: url('../assets/icons/trending-up\ 1.svg'); 
     background-size: contain;
     background-position: center; 
     background-repeat:no-repeat;}
@@ -158,7 +158,7 @@ header {
     margin-left: 10px; 
     width: 12px; 
     height: 12px; 
-    background-image: url('./assets/icons/trending-down\ 1.svg'); 
+    background-image: url('../assets/icons/trending-down\ 1.svg'); 
     background-size: contain; 
     background-position: center; 
     background-repeat:no-repeat; }
@@ -207,7 +207,7 @@ header {
     display: flex;
     width: 100%; 
     height: 100%;
-    background-image: url('./assets/images/Group_18.svg');
+    background-image: url('../assets/images/Group_18.svg');
     background-size:contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -267,25 +267,25 @@ header {
     height: 20px;
 }
 .clock {
-    background-image: url('./assets/icons/clock_1.svg');
+    background-image: url('../assets/icons/clock_1.svg');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
 .eye {
-    background-image: url('./assets/icons/eye_1.svg');
+    background-image: url('../assets/icons/eye_1.svg');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
 .dollar-sign {
-    background-image: url('./assets/icons/dollar-sign_1.svg');
+    background-image: url('../assets/icons/dollar-sign_1.svg');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
 .check-circle {
-    background-image: url('./assets/icons/check-circle.svg');
+    background-image: url('../assets/icons/check-circle.svg');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -312,7 +312,7 @@ header {
 .bitcoin-img-container {
     width: 100%; 
     height: 400px; 
-    background-image: url('./assets/images/bitcoinbaby_1.jpg');
+    background-image: url('../assets/images/bitcoinbaby_1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position:center}
@@ -382,7 +382,7 @@ header {
 .plan-info--discount {font-size: 1.2rem; font-family: 'Inter',sans-serif; color: var(--silver); font-weight: 500; text-align: center;}
 .plan-info--price-select  {font-size: 1.4rem; font-weight: 700; color: var(--warm_black); text-decoration: none; display: flex; justify-content: center; align-items: center; width: 150px; height: 48px; background-color: var(--off_white); border-radius: 8px; border: 2px solid var(--bitcoin_orange);}
 .plan-info--price-select p {display: inline-block;}
-.price-select--icon {display: inline-block; width: 24px; height: 24px; background-image: url('./assets/icons/arrow-right.svg');}
+.price-select--icon {display: inline-block; width: 24px; height: 24px; background-image: url('../assets/icons/arrow-right.svg');}
 .plan-info--price-select-container {margin-bottom: 24px;}
 
 
@@ -413,7 +413,7 @@ footer {width: 100%; height: 150px;  background-color: var(--bitcoin_orange); di
 .footer-icon {
     width: 41px;
     height: 24px;
-    background-image: url('./assets/images/Group_18.svg');
+    background-image: url('../assets/images/Group_18.svg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: -12px;}
